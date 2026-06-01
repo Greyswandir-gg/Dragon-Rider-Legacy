@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DRL_RiderBond.label>связь всадника</DRL_RiderBond.label>
+  <DRL_RiderBond.description>Тихий психический резонанс между всадником и драконом. Связь укрепляет дух и обостряет инстинкты, но её истинная глубина пока остаётся легендой.</DRL_RiderBond.description>
+  <DRL_RiderBond.stages.0.label>связан</DRL_RiderBond.stages.0.label>
+</LanguageData>

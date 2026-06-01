@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>DRL_DragonBound</defName>
+    <commonality>0.02</commonality>
+    <degreeDatas>
+      <li>
+        <degree>0</degree>
+        <label>dragon-bound</label>
+        <description>This pawn carries an old, half-forgotten affinity for dragons. Animals sense the echo of command in their voice, and battle awakens instincts older than any throne.</description>
+        <skillGains>
+          <Animals>4</Animals>
+          <Melee>2</Melee>
+        </skillGains>
+        <statOffsets>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <TameAnimalChance>0.08</TameAnimalChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

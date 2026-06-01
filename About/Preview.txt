@@ -1,0 +1,5 @@
+Preview image intentionally omitted because this delivery channel does not support binary files.
+
+Optional local placeholder:
+- Create a 640x360 PNG named Preview.png in this About/ directory.
+- RimWorld treats About/Preview.png as optional; the mod can load without it.

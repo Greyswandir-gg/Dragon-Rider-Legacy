@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>DRL_DragonEgg</defName>
+    <label>dragon egg</label>
+    <description>A rare egg of an ancient dragon bloodline. It is warm to the touch and faintly echoes with an intelligence not yet awake.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <drawerType>MapMeshOnly</drawerType>
+    <tickerType>Never</tickerType>
+    <altitudeLayer>Item</altitudeLayer>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <pathCost>15</pathCost>
+    <rotatable>false</rotatable>
+    <stackLimit>1</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Resource/Gold/Gold_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+      <color>(0.45, 0.68, 1.0)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <MarketValue>1800</MarketValue>
+      <Mass>7.5</Mass>
+      <Flammability>0.45</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>DRL_YoungDragon</defName>
+    <label>young dragon</label>
+    <description>A young scaled predator with ember-bright eyes. It is small by the standards of old legends, yet already clever, loyal, and dangerous when defending its chosen rider.</description>
+    <race>
+      <body>QuadrupedAnimalWithPaws</body>
+      <baseBodySize>1.25</baseBodySize>
+      <baseHealthScale>1.45</baseHealthScale>
+      <lifeExpectancy>180</lifeExpectancy>
+      <meatDef>Meat_Warg</meatDef>
+      <meatLabel>dragon meat</meatLabel>
+      <leatherDef>Leather_Plain</leatherDef>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <hasGenders>true</hasGenders>
+      <trainability>Advanced</trainability>
+      <intelligence>Animal</intelligence>
+      <foodType>CarnivoreAnimal</foodType>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.35</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.0</minAge>
+        </li>
+      </lifeStageAges>
+    </race>
+    <statBases>
+      <MoveSpeed>5.1</MoveSpeed>
+      <MarketValue>950</MarketValue>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMax>75</ComfyTemperatureMax>
+      <FilthRate>6</FilthRate>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.55</ArmorRating_Heat>
+      <Wildness>0.68</Wildness>
+      <Petness>0.45</Petness>
+      <NuzzleInterval>120</NuzzleInterval>
+    </statBases>
+    <tools>
+      <li>
+        <label>flame-warmed bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.9</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.55</chanceFactor>
+      </li>
+      <li>
+        <label>talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.25</chanceFactor>
+      </li>
+      <li>
+        <label>talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <chanceFactor>0.25</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>
