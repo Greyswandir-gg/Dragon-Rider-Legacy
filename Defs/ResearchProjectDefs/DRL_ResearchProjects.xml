@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>DRL_DragonLore</defName>
+    <label>dragon lore</label>
+    <description>Recover oral fragments, burned manuscripts, and battlefield songs about the ancient dragons and those who rode beside them.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Main</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>12.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DRL_DragonBonding</defName>
+    <label>dragon bonding</label>
+    <description>Study rites of trust, shared dreams, and the discipline required to turn a dangerous hatchling into a lifelong companion.</description>
+    <baseCost>900</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Main</tab>
+    <prerequisites>
+      <li>DRL_DragonLore</li>
+    </prerequisites>
+    <researchViewX>2.40</researchViewX>
+    <researchViewY>12.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DRL_RiderTraining</defName>
+    <label>rider training</label>
+    <description>Codify harsh training for mounted warfare, animal command, oath discipline, and the first principles of rebuilding a rider order.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Main</tab>
+    <prerequisites>
+      <li>DRL_DragonBonding</li>
+    </prerequisites>
+    <researchViewX>3.80</researchViewX>
+    <researchViewY>12.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>

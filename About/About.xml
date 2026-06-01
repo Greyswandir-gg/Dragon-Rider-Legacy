@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Dragon Rider Legacy</name>
+  <author>Dragon Rider Legacy Team</author>
+  <packageId>drl.dragonriderlegacy</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>XML-first fantasy-medieval MVP about rebuilding an ancient order of dragon riders. Adds the Last Dragon Rider scenario, a dragon egg relic, a young dragon companion, rider bond mechanics, a hostile usurper faction, and a small research chain.</description>
+</ModMetaData>
