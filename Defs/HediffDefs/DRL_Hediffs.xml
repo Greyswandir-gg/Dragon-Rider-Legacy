@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>DRL_RiderBond</defName>
+    <label>rider bond</label>
+    <description>A quiet psychic resonance between a rider and a dragon. The bond steadies the mind and sharpens instinct, but its true depth is still only legend.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.45, 0.72, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>bonded</label>
+        <statOffsets>
+          <PsychicSensitivity>0.10</PsychicSensitivity>
+          <MoveSpeed>0.08</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

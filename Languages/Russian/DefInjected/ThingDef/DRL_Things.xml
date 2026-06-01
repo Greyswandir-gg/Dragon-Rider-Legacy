@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DRL_DragonEgg.label>драконье яйцо</DRL_DragonEgg.label>
+  <DRL_DragonEgg.description>Редкое яйцо древней драконьей крови. Оно тёплое на ощупь и едва слышно отзывается разумом, который ещё не пробудился.</DRL_DragonEgg.description>
+  <DRL_YoungDragon.label>молодой дракон</DRL_YoungDragon.label>
+  <DRL_YoungDragon.description>Юный чешуйчатый хищник с глазами цвета тлеющих углей. По меркам старых легенд он ещё мал, но уже умён, верен и опасен, когда защищает избранного всадника.</DRL_YoungDragon.description>
+  <DRL_YoungDragon.race.meatLabel>драконье мясо</DRL_YoungDragon.race.meatLabel>
+  <DRL_YoungDragon.race.leatherLabel>драконья кожа</DRL_YoungDragon.race.leatherLabel>
+  <DRL_YoungDragon.tools.0.label>укус с жаром пламени</DRL_YoungDragon.tools.0.label>
+  <DRL_YoungDragon.tools.1.label>когти</DRL_YoungDragon.tools.1.label>
+  <DRL_YoungDragon.tools.2.label>когти</DRL_YoungDragon.tools.2.label>
+</LanguageData>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>DRL_LastDragonRider</defName>
+    <label>Last Dragon Rider</label>
+    <scenario>
+      <name>Last Dragon Rider</name>
+      <summary>A young rider, an old mentor, and a dragon egg flee into the wilderness to rebuild a fallen order.</summary>
+      <description>The old citadels are ash, their banners torn down by a usurper's armies. Only two survivors reach the rim: a young heir to the rider oaths and a scarred mentor who remembers too much. With one ancient dragon egg and little more than steel, food, and stubborn hope, they must found a hidden medieval refuge and raise the first dragon of a new age.</description>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>PlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>2</pawnCount>
+        </li>
+        <li Class="ScenPart_ForcedTrait">
+          <def>ForcedTrait</def>
+          <traitDef>DRL_DragonBound</traitDef>
+          <degree>0</degree>
+          <chance>1</chance>
+        </li>
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <hediff>DRL_RiderBond</hediff>
+          <chance>1</chance>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DRL_DragonEgg</thingDef>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_LongSword</thingDef>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Bow_Recurve</thingDef>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pemmican</thingDef>
+          <count>120</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>HerbalMedicine</thingDef>
+          <count>12</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>350</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Steel</thingDef>
+          <count>120</count>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>DRL_DragonLore</project>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>The egg has not yet hatched. Build shelter, keep the mentor alive, and guard the last spark of the rider legacy.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

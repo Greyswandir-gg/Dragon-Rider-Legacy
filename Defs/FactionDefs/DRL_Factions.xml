@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>DRL_UsurperEmpire</defName>
+    <label>Usurper Empire</label>
+    <description>A grim medieval realm ruled by oathbreakers and warlords. Its captains hunt remnants of the old rider orders and burn any village accused of sheltering them.</description>
+    <isPlayer>false</isPlayer>
+    <humanlikeFaction>true</humanlikeFaction>
+    <canMakeRandomly>true</canMakeRandomly>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <naturalEnemy>true</naturalEnemy>
+    <permanentEnemy>true</permanentEnemy>
+    <techLevel>Medieval</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <Tribal_Warrior>40</Tribal_Warrior>
+          <Tribal_Archer>35</Tribal_Archer>
+          <Tribal_Berserker>12</Tribal_Berserker>
+          <Tribal_HeavyArcher>13</Tribal_HeavyArcher>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Tribal_Warrior>35</Tribal_Warrior>
+          <Tribal_Archer>35</Tribal_Archer>
+          <Tribal_Berserker>10</Tribal_Berserker>
+          <Tribal_HeavyArcher>20</Tribal_HeavyArcher>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <colorSpectrum>
+      <li>(0.36, 0.05, 0.04)</li>
+      <li>(0.12, 0.12, 0.12)</li>
+    </colorSpectrum>
+  </FactionDef>
+</Defs>
